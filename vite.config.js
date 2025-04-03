@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/miru-portfolio"
+  base: process.env.VITE_BASE_PATH || "/miru-portfolio",
 });
