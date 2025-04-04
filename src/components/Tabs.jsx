@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 const Tabs = ({ tabList, activeTab, onChange }) => {
   const getActiveStyles = (value) => {
     return activeTab === value
-      ? "text-white bg-gradient-to-r from-blue-300 to-blue-200"
-      : "text-secondary bg-blue-100";
+      ? "text-white bg-gradient-to-r from-blue-400 to-blue-300"
+      : "text-blue-600 bg-blue-200";
   };
   return (
     <div className="flex items-center justify-center my-10">
-      <div className="bg-blue-100 rounded-full flex">
+      <div className="bg-blue-200 rounded-full flex">
         {tabList.map((tab) => (
           <motion.button
             key={tab.id}
