@@ -147,12 +147,11 @@ export const ABOUT_ME = {
     Let's connect and explore how my unique perspective and technical skills can bring your web projects to life.
   `,
   SocialLinks: [
-    { id: "01", label: "X", icon: FaXTwitter, link: "#" },
-    { id: "02", label: "Instagram", icon: FaInstagram, link: "#" },
+    { id: "01", label: "X", icon: FaXTwitter, link: "https://x.com/MirukuPixeL" },
+    { id: "02", label: "Instagram", icon: FaInstagram, link: "https://www.instagram.com/miruku.pixel" },
     { id: "03", label: "Github", icon: FaGitAlt, link: "#" },
   ],
   email: "miruku.pixel@gmail.com",
-  phone: "+62 853 5882 xxxx",
   website: "https://www.mirukupixel.com",
 };
 
