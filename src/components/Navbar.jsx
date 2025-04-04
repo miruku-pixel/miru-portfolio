@@ -130,7 +130,7 @@ const Navbar = () => {
             aria-label="Go to Contact Us section"
           >
             <button
-              className="hidden md:block h-12 text-[17px] font-medium text-[#333] bg-gradient-to-r from-blue-400 to-blue-200
+              className="hidden md:block h-12 text-[18px] font-medium text-black bg-gradient-to-r from-blue-400 to-blue-200
             rounded-full px-9 transition-transform duration-300 ease-in-out hover:scale-105 cursor-pointer"
             >
               Hire Me
